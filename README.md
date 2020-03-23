@@ -6,12 +6,12 @@ As part of a funded research project by Dr. Mary Ann Bruns to study bacteria cap
 All raw fastq files have been uploaded to NCBI under the BioProject ID PRJNA613230. All code and metadata is available here to reproduce the results.
 
 <br/><br/> Here is an overview of the sequence processing/analysis that was performed: 
-<br/> Dada2 in R was used to filter/trim sequences, determine amplicon sequence variants (ASVs), and remove chimeric sequences 
-<br/> Taxonomy was assigned with a custom database for nrfA sequences that was downloaded from FunGene 
-<br/> A phylogenetic tree was constructed in R using the msa and phangorn packages 
-<br/> Alpha-diversity was calculated for baseline and incubated samples separately from rarefied datasets and ANOVAs were performed 
-<br/> Beta-diversity was assesed with weighted UniFrac and PERMANOVAs were performed with the vegan package
-<br/> Pairwise permanovas were performed with the RVAideMemoire package
-<br/> Mantel tests were performed to determine if weighted UniFrac dissimilarities were correlated with NO3-, NH4+, or nrfA gene copy numbers (which were quantified from the incubated samples at day 2 and day 16)
-<br/> Differential abundance analyses were performed on baseline samples and incubated samples to determine if any taxa were differentially abundant across Day, WFPS, amendment type, or soil fertilization history
+<br/> 1. Dada2 in R was used to filter/trim sequences, determine amplicon sequence variants (ASVs), and remove chimeric sequences 
+<br/> 2. Taxonomy was assigned with a custom database for nrfA sequences that was downloaded from FunGene 
+<br/> 3. A phylogenetic tree was constructed in R using the msa and phangorn packages 
+<br/> 4. Alpha-diversity was calculated for baseline and incubated samples separately from rarefied datasets and ANOVAs were performed 
+<br/> 5. Beta-diversity was assesed with weighted UniFrac and PERMANOVAs were performed with the vegan package
+<br/> 6. Pairwise permanovas were performed with the RVAideMemoire package
+<br/> 7. Mantel tests were performed to determine if weighted UniFrac dissimilarities were correlated with NO3-, NH4+, or nrfA gene copy numbers (which were quantified from the incubated samples at day 2 and day 16)
+<br/> 8. Differential abundance analyses were performed on baseline samples and incubated samples to determine if any taxa were differentially abundant across Day, WFPS, amendment type, or soil fertilization history
 
